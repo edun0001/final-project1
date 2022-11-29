@@ -5,13 +5,19 @@ index.html
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Media Star</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
 
     <header>
         <nav>
             <div class="container">
-                <img src="images/logo.png" alt="Logo">
+               <div class="logo"><img src="images/logo.png" alt="Logo"></div>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
@@ -28,9 +34,9 @@ index.html
  </div> <!--end container-->
          </nav>
          <div class="header-welcome">
-         </div class="container">
+         <div class="container">
 
-<h1>WELCOME TO THREE STAR MEDIA</h1>
+<h1>Welcome to Three Star Media</h1>
     <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -48,7 +54,7 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
         <section class="section-about">
             <div class="container">
                 <img src="images/about-us.jpg" alt="about-us">
-                <h1>About us</h1>
+                <h2>About us</h2>
                 <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -61,9 +67,12 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
         <section class="section-services">
             <div class="container">
-                <h1>Our Services</h1>
+                <h2>Our Services</h2>
+
+                <div class="grid-container">
+                    <div class="grid-items">
                 <img src="images/digital.jpg" alt="digital">
-                <h2>Digital Transformation</h2>
+                <h3>Digital Transformation</h3>
                 <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -72,60 +81,61 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
     <form>
         <button type="button">Digital Plans</button>
     </form>
+    <!--end grid-item--></div>
     
-    <div class="container">
+    <div class="grid-item">
             <img src="images/marketing.jpg" alt="marketing">
-            <h2>Marketing</h2>
+            <h3>Marketing</h3>
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                 ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <form>
                     <button type="button">Marketing Plans</button>
                 </form>
-
-                <div class="container">
+    </div>
+                <div class="grid-item">
                     <img src="images/video.jpg" alt="video">
-                    <h2>Video Production</h2>
+                    <h3>Video Production</h3>
                     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <form>
                             <button type="button">Video Plans</button>
                         </form>
-
-                        <div class="container">
+                    </div>
+                        <div class="grid-item">
                             <img src="images/web.jpg" alt="web">
-                            <h2>Web Development</h2>
+                            <h3>Web Development</h3>
  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
              ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                 <form>
                                     <button type="button">Web Plans</button>
                                 </form>
-
-                                <div class="container">
+                            </div>
+                                <div class="grid-item">
                                     <img src="images/print.jpg" alt="print">
-                                    <h2>Print</h2>
+                                    <h3>Print</h3>
          <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                       ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                      ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         <form>
                                             <button type="button">Print Plans</button>
                                         </form>
-                
-
+                                    </div>
+                                    </div><!--end grid-container-->
                 <!--one heading, five div's each with an image,h3,para,button ON A GRID -->
             </div><!--end--container-->
         </section><!--end section-services-->
 
         <section class="section-vision">
             <div class="container">
-                <h1>Our Vision</h1>
+                <h3>Our Vision</h3>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                       <form>
-                                          <button type="Learn More">Print Plans</button>
+                                          <button type="button">Learn More</button>
                                       </form>
               
                 <!--a heading, a paragraph and a button 
@@ -138,18 +148,18 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
         <section class="section-team">
             <div class="container">
-                <h1>Our Team</h1>
+                <h2>Our Team</h2>
                 <img src="images/john.jpg" alt="john.jpg">
-                <h2>John Doe</h2>
-                <h3>CEO and Co-owner</h3>
+                <h3>John Doe</h3>
+                <h4>CEO and Co-owner</h4>
                 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
 
                    <div class="container">
                    <img src="images/bob.jpg" alt="bob.jpg">
-                   <h2>Bob Rite</h2>
-                   <h3>CEO and Co-owner</h3>
+                   <h3>Bob Rite</h3>
+                   <h4>CEO and Co-owner</h4>
                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                       ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
@@ -163,21 +173,21 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
         <section class="section-contact">
             <div class="container">
-                <h1>Contact Us</h1>
-                <h2>Send Us a message</h2>
+                <h2>Contact Us</h2>
+                <h3>Send Us a message</h3>
                 <form>
                     <button><input type="blank"></button>
                 </form>
-                <h2>Full Name</h2>
+                <h4>Full Name</h4>
                 <form>
                     <button><input type="blank"></button>
                 </form>
                 </form>
-                <h2>Email</h2>
+                <h4>Email</h4>
                 <form>
                     <button><input type="blank"></button>
                 </form>
-                <h2>Message</h2>
+                <h4>Message</h4>
                 <form>
                     <button><input type="blank"></button>
                 </form>
