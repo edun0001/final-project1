@@ -1,0 +1,308 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+    box-sizing: border-box;
+    
+}
+
+/* GENERIC STYLES */
+
+
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+h1 {
+    font-size: 71px;
+    line-height: 106px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+h3 {
+    font-size: 37px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+h4 {
+    font-size: 25px;
+    line-height: 1.5;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+
+/* H3...H4...etc*/
+
+p {
+margin-bottom: 1em; /* font-size is 14, so 1em = 14px */
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background: #222222;
+}
+
+.container {
+    padding: 14px;
+
+}
+
+.logo {
+    background: #c78b07;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+nav a:link,
+nav a:visited {
+    font-size: 18px;
+    color: #c78b07;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding-bottom: 17px;
+    padding-bottom: 17px;
+}
+
+nav .current a:link,
+nav .current a:visited {
+      color: #000000;
+      background: #c78b07;
+}
+
+
+/*SECTION-SPECIFIC STYLES*/
+
+/*WELCOME SECTION*/
+
+.header-welcome {
+    background-image: url(../images/main-banner.jpg);
+    background-size: cover;
+    padding-bottom: 68px;
+    padding-top: 68px;
+}
+
+.header-welcome .container {
+    background: rgba(0, 0, 0,  0.5);
+    color: white;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+/* ABOUT SECTION */
+
+.section-about {
+    width: auto;
+   background-color: #ffe6ac;
+   background-size: color;
+   padding-bottom: 68px;
+   padding-top: 68px;
+}
+
+/* SERVICES SECTION*/
+
+.section-services  {}
+
+.section-services img{width: 100%;}
+
+.section-services button{ 
+    padding: 35px;
+    background-color: #222;
+    color: white;
+    font-size: 22px;
+}
+
+
+    
+    .grid-digital-item{
+
+    background-color: #ffe6ac;
+    background-size: color;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.grid-marketing-item{
+    
+    background-color: #ffe6ac;
+    background-size: color;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.grid-video-item{
+    
+    background-color: #ffe6ac;
+    background-size: color;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.grid-web-item{
+    
+    background-color: #ffe6ac;
+    background-size: color;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.grid-print-item{
+    
+    background-color: #ffe6ac;
+    background-size: color;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+ /* VISION SECTION*/
+ .section-vision {
+    background-image:  url(../images/vision.jpg);
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 20px;
+ }
+ .section-vision button{ 
+    padding: 35px;
+    background-color:  rgba(0, 0, 0,  0.5);
+    color: white;
+    font-size: 22px;
+    border: 1px solid #c78b07;
+}
+
+
+ /* OUR TEAM SECTION*/
+
+ .section-our-team img{width: 100%;}
+
+ .section-our-team{
+
+    background-color: #ffe6ac;
+    background-size: color;
+    padding-bottom: 16px;
+    padding-top: 16px;
+ }
+
+ .team-grid-item{
+    
+    background-color: #ffe6ac;
+    background-size: color;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+
+/*TABLET STYLES: 760px to 1199px */
+@media screen and (min-width: 1200px) {
+    
+    .container {
+        margin: 0 auto;
+        width: 760;
+
+    }
+}
+
+
+
+/* DESKTOP STYLES: ABOVE 1200px*/
+
+
+@media screen and (min-width: 1200px) {
+
+    .container {
+        display: grid;
+        width:  760px;
+        margin: 0 auto;
+        padding: 0 16px;
+    }
+}
+body{
+    margin: 0 auto;
+    display: grid;
+
+}
+
+
+p{
+margin: 0;
+
+}
+
+h1{
+    margin: 0 auto;
+    display: grid;
+   
+}
+
